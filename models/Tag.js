@@ -1,8 +1,6 @@
-const { dasherize } = require('inflection');
 const { Model, DataTypes } = require('sequelize');
-
 const sequelize = require('../config/connection.js');
-const { truncate } = require('./Product.js');
+
 
 class Tag extends Model {}
 
